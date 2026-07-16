@@ -1,0 +1,13 @@
+name= input("Enter your name:")
+age= input("Enter your age:")
+college= input("Enter your college:")
+branch= input("Enter your branch:")
+dream= input("Enter your dream company:")
+print("\n======STUDENT PROFILE======")
+print("Name:",name)
+print("Age:",age)
+print("College:",college)
+print("Branch:",branch)
+print("Dream:",dream)
+print("============")
+
