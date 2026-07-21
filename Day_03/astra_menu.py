@@ -1,28 +1,28 @@
 def create_study_plan():
-        print("\nOpening Study Planner...\n")
+    print("\nOpening Study Planner...\n")
 
-        exam = input("Enter the exam name: ")
-        days = int(input("Days left for the exam: "))
-        target = int(input("Target marks to be scored: "))
+    exam = input("Enter the exam name: ")
+    days = int(input("Days left for the exam: "))
+    target = int(input("Target marks to be scored: "))
 
-        print()
-        print("=" * 40)
-        print("Study Plan Created")
-        print("=" * 40)
-        print("Exam       :", exam)
-        print("Days Left  :", days)
-        print("Target     :", target)
-        print("Good Luck!")
-        print("=" * 40)
+    print()
+    print("=" * 40)
+    print("Study Plan Created")
+    print("=" * 40)
+    print("Exam       :", exam)
+    print("Days Left  :", days)
+    print("Target     :", target)
+    print("Good Luck!")
+    print("=" * 40)
 
-        hours = int(input("How many hours can you study daily? "))
+    hours = int(input("How many hours can you study daily? "))
 
-        if hours >= 6:
-            print("Excellent Dedication!")
-        elif hours >= 4:
-            print("Good Pace.")
-        else:
-            print("Increase your study time.")
+    if hours >= 6:
+        print("Excellent Dedication!")
+    elif hours >= 4:
+        print("Good Pace.")
+    else:
+        print("Increase your study time.")
 def track_study_hours():
     print("Opening Study Tracker...")
     time = int(input("How many hours did you study today?:"))
@@ -34,6 +34,9 @@ def track_study_hours():
             print("Good, but try to study a bit more tomorrow.")
     else:
             print("Let's improve tomorrow!")
+def resource_tools():
+    print("Opening Resource Tools...")
+    print("Feature under development...")
 while True:
     print("=" * 40)
     print("PROJECT ASTRA")
@@ -54,7 +57,7 @@ while True:
         track_study_hours()
 
     elif choice == "3":
-        print("Opening Resource Tools...")
+        resource_tools()
 
     elif choice == "4":
         print("Thank You for using ASTRA!")
